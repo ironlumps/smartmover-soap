@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SmartData.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SmartData_net_melissadata_smartmover_SmartMoverSOAP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://smartmover.melissadata.net/v3/SOAP/SmartMover</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

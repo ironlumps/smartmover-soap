@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://smartmover.melissadata.net/v3/SOAP/SmartMover?xsd=xsd0" filename="SmartMover.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://smartmover.melissadata.net/v3/SOAP/SmartMover?wsdl" filename="SmartMoverSOAP.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://smartmover.melissadata.net/v3/SOAP/SmartMover?xsd=xsd1" filename="SmartMover0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://smartmover.melissadata.net/v3/SOAP/SmartMover?wsdl=wsdl0" filename="SmartMover.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="https://smartmover.melissadata.net/v3/SOAP/SmartMover?disco" filename="SmartMover.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

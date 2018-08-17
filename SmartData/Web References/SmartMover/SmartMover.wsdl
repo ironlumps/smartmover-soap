@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="urn:mdSmartMover" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:mdSmartMover" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:mdSmartMover/Imports">
+      <xsd:import schemaLocation="https://smartmover.melissadata.net/v3/SOAP/SmartMover?xsd=xsd0" namespace="urn:mdSmartMover" />
+      <xsd:import schemaLocation="https://smartmover.melissadata.net/v3/SOAP/SmartMover?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SmartMoverSOAP_doSmartMover_InputMessage">
+    <wsdl:part name="parameters" element="tns:doSmartMover" />
+  </wsdl:message>
+  <wsdl:message name="SmartMoverSOAP_doSmartMover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:doSmartMoverResponse" />
+  </wsdl:message>
+  <wsdl:message name="SmartMoverSOAP_GetSummaryReportLinks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSummaryReportLinks" />
+  </wsdl:message>
+  <wsdl:message name="SmartMoverSOAP_GetSummaryReportLinks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSummaryReportLinksResponse" />
+  </wsdl:message>
+  <wsdl:message name="SmartMoverSOAP_GetNCOALink_SummaryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNCOALink_SummaryReport" />
+  </wsdl:message>
+  <wsdl:message name="SmartMoverSOAP_GetNCOALink_SummaryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNCOALink_SummaryReportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SmartMoverSOAP">
+    <wsdl:operation name="doSmartMover">
+      <wsdl:input wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/doSmartMover" message="tns:SmartMoverSOAP_doSmartMover_InputMessage" />
+      <wsdl:output wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/doSmartMoverResponse" message="tns:SmartMoverSOAP_doSmartMover_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSummaryReportLinks">
+      <wsdl:input wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/GetSummaryReportLinks" message="tns:SmartMoverSOAP_GetSummaryReportLinks_InputMessage" />
+      <wsdl:output wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/GetSummaryReportLinksResponse" message="tns:SmartMoverSOAP_GetSummaryReportLinks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNCOALink_SummaryReport">
+      <wsdl:input wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/GetNCOALink_SummaryReport" message="tns:SmartMoverSOAP_GetNCOALink_SummaryReport_InputMessage" />
+      <wsdl:output wsaw:Action="urn:mdSmartMover/SmartMoverSOAP/GetNCOALink_SummaryReportResponse" message="tns:SmartMoverSOAP_GetNCOALink_SummaryReport_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

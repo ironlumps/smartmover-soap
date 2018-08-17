@@ -1,0 +1,10 @@
+c:\users\ryan\source\repos\SmartData\SmartData\bin\Debug\SmartData.exe.config
+c:\users\ryan\source\repos\SmartData\SmartData\bin\Debug\SmartData.exe
+c:\users\ryan\source\repos\SmartData\SmartData\bin\Debug\SmartData.pdb
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.csprojAssemblyReference.cache
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.Form1.resources
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.Properties.Resources.resources
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.csproj.GenerateResource.cache
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.csproj.CoreCompileInputs.cache
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.exe
+c:\users\ryan\source\repos\SmartData\SmartData\obj\Debug\SmartData.pdb
